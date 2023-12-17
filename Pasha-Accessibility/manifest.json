@@ -1,0 +1,33 @@
+{
+	"name": "Accessibility",
+	"namespace": "Pasha",
+	"version_number": "1.0.0",
+	"description": "Adds more controls to the game including scoll to zoom and shop controls.",
+	"website_url": "",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"incompatibilities": [],
+			"authors": ["Pasha"],
+			"compatible_mod_loader_version": ["6.0.0"],
+			"compatible_game_version": ["0.8.0.3"],
+			"config_schema": {
+				"title": "Accessibility Settings",
+				"description": "Config for Accessibility",
+				"type" : "object",
+				"properties" : {
+                    "PASHA_ACCESSIBILITY_ZOOM_ENABLED" : {
+						"type": "boolean",
+						"default": true,
+						"tooltip": "PASHA_ACCESSIBILITY_ZOOM_ENABLED_TOOLTIP"
+					},
+					"PASHA_ACCESSIBILITY_SHOP_BY_NUMBER_ENABLED" : {
+                        "type": "boolean",
+						"default": true,
+						"tooltip": "PASHA_RAINBOW_CRATE_DROP_CHANCE_TOOLTIP"
+					}
+				},
+			}
+		}
+	}
+}
