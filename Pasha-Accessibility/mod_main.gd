@@ -8,7 +8,7 @@ func _init():
 	
 	ModLoaderMod.install_script_extension(ext_dir + "global/my_camera.gd")
 	
-#	ModLoaderMod.install_script_extension(ext_dir + "ui/menus/ingame/upgrades_ui.gd")
+	ModLoaderMod.install_script_extension(ext_dir + "ui/menus/ingame/upgrades_ui.gd")
 	
 #	ModLoaderMod.install_script_extension(ext_dir + "ui/menus/shop/reroll_button.gd")
 #	ModLoaderMod.install_script_extension(ext_dir + "ui/menus/shop/shop.gd")
