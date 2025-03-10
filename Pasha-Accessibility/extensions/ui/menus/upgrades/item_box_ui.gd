@@ -1,4 +1,4 @@
-extends "res://ui/menus/upgrades/item_box_ui.gd"
+extends "res://ui/menus/ingame/upgrades_ui_player_container.gd"
 
 func _ready():
 	_discard_button.set_shortcut(_create_shortcut_for_key(KEY_2))

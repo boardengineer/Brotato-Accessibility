@@ -18,7 +18,7 @@ func _ready():
 	_upgrade_ui_4_select.set_shortcut(_create_shortcut_for_key(KEY_4))
 	_upgrade_ui_4_select.text = tr(_upgrade_ui_4_select.text) + " [4]"
 	
-	_reroll_button.set_shortcut(_create_shortcut_for_key(KEY_QUOTELEFT))
+#	_reroll_button.set_shortcut(_create_shortcut_for_key(KEY_QUOTELEFT))
 
 func _create_shortcut_for_key(key) -> ShortCut:
 	var result := ShortCut.new()
